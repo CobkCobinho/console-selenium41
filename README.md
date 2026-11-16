@@ -2,9 +2,6 @@
 
 [![Testes Selenium](https://github.com/CobkCobinho/console-selenium41/actions/workflows/tests.yml/badge.svg)](https://github.com/CobkCobinho/console-selenium41/actions/workflows/tests.yml)
 
-Atividade individual da Lista 41 de Gestão e Qualidade de Software, professor Daniel Henrique Matos de Paiva.
-
-**Autor:** Luiz Henrique Souza dos Santos.
 
 Automação do [formulário oficial do Selenium](https://www.selenium.dev/selenium/web/web-form.html), utilizando **C#, .NET 10, MSTest e Selenium WebDriver**.
 
@@ -81,4 +78,4 @@ A senha é um dado fictício de teste. O site demonstrativo envia o formulário 
 
 O GitHub Actions compila a solução e executa os três testes contra o formulário real. O relatório TRX fica disponível no artefato `resultados-selenium` de cada execução. Falhas de rede, indisponibilidade do formulário ou mudanças no site podem afetar estes testes de integração.
 
-Trabalho realizado individualmente. [Repositório público para entrega](https://github.com/CobkCobinho/console-selenium41).
+
