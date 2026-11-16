@@ -142,7 +142,7 @@ public sealed class WebFormularioDesafioTest
         {
             var elemento = navegador.FindElement(By.Id("message"));
             return elemento.Displayed ? elemento : null;
-        });
+        }) ?? throw new WebDriverTimeoutException("A mensagem de confirmacao nao foi encontrada.");
 
         Assert.AreEqual("Received!", mensagem.Text,
             "O formulario deve confirmar o recebimento apos a submissao.");
